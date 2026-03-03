@@ -9,10 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 
 import com.nadia.entreprises.entities.Entreprise;
-<<<<<<< HEAD
 import com.nadia.entreprises.entities.Secteur;
-=======
->>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 import com.nadia.entreprises.repos.EntrepriseRepository;
 import com.nadia.entreprises.service.EntrepriseService;
 
@@ -26,10 +23,7 @@ class EntreprisesApplicationTests {
 	@Test
 	public void testCreateEntreprise(){
 	Entreprise ent=new Entreprise("Riot",850.0,new Date(),"riot@gmail.com");
-<<<<<<< HEAD
 	ent.setSecteur(null);
-=======
->>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 	entrepriseRepository.save(ent);
 	}
 	
@@ -81,7 +75,6 @@ class EntreprisesApplicationTests {
 
 	    */
 	}
-<<<<<<< HEAD
 	
 	@Test
 	public void testFindByNomEnt() {
@@ -140,7 +133,4 @@ class EntreprisesApplicationTests {
 		for (Entreprise e  : ents)  
 			System.out.println(e); 
 	  } 
-=======
-
->>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 }
