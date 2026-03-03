@@ -5,7 +5,10 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 
 import com.nadia.entreprises.entities.Entreprise;
+<<<<<<< HEAD
 import com.nadia.entreprises.entities.Secteur;
+=======
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 
 public interface EntrepriseService {
 	Entreprise saveEntreprise(Entreprise e);
@@ -15,6 +18,7 @@ public interface EntrepriseService {
 	Entreprise getEntreprise(Long id);
 	List<Entreprise> getAllEntreprises();
 	Page<Entreprise> getAllEntreprisesParPage(int page,int size);
+<<<<<<< HEAD
 	
 	 List<Entreprise> findByNomEnt(String nom); 
 	 List<Entreprise> findByNomEntContains(String nom); 
@@ -23,4 +27,6 @@ public interface EntrepriseService {
 	 List<Entreprise> findBySecteurIdSec(Long id); 
 	 List<Entreprise> findByOrderByNomEntAsc(); 
 	 List<Entreprise> trierEntreprisesNomsChiffre();
+=======
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 }

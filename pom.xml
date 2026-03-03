@@ -87,12 +87,15 @@
 			<artifactId>jquery</artifactId> 
 			<version>3.5.1</version> 
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
    			 <groupId>org.projectlombok</groupId>
     		 <artifactId>lombok</artifactId>
     		 <version>1.18.30</version>
     		 <scope>compile</scope>
 		</dependency>
+=======
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 		
 	</dependencies>
 

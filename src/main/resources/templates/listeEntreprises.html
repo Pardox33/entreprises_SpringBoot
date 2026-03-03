@@ -53,7 +53,11 @@
 	    <li class="nav-item" th:each="i, stat : ${pages}">
 	      <a th:href="@{/listeEntreprises(page=${stat.index}, size=${size})}"
 	         th:text="${stat.index + 1}"
+<<<<<<< HEAD
 	         th:classappend="${stat.index == currentPage+1} ? ' btn btn-primary' : ' btn btn-light'" 
+=======
+	         th:classappend="${stat.index == currentPage} ? ' btn btn-primary' : ' btn btn-light'" 
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 	         class="btn m-1">
 	      </a>
 	    </li>

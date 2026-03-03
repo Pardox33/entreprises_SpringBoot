@@ -1,5 +1,6 @@
 package com.nadia.entreprises.repos;
 
+<<<<<<< HEAD
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -30,3 +31,12 @@ public interface EntrepriseRepository extends JpaRepository<Entreprise, Long> {
     List<Entreprise> trierEntreprisesNomsChiffre(); 
     
 }
+=======
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.nadia.entreprises.entities.Entreprise;
+
+public interface EntrepriseRepository extends JpaRepository<Entreprise, Long> {
+
+}
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e

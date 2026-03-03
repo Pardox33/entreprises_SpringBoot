@@ -8,7 +8,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import com.nadia.entreprises.entities.Entreprise;
+<<<<<<< HEAD
 import com.nadia.entreprises.entities.Secteur;
+=======
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 import com.nadia.entreprises.repos.EntrepriseRepository;
 
 @Service
@@ -51,6 +54,7 @@ public class EntrepriseServiceImp implements EntrepriseService{
 		return entrepriseRepository.findAll(PageRequest.of(page, size));
 	}
 
+<<<<<<< HEAD
 	@Override
 	public List<Entreprise> findByNomEnt(String nom) {
 		return entrepriseRepository.findByNomEnt(nom);
@@ -86,4 +90,6 @@ public class EntrepriseServiceImp implements EntrepriseService{
 		return entrepriseRepository.trierEntreprisesNomsChiffre();
 	}
 
+=======
+>>>>>>> 808a62b35576986f7545f437f3853d912ac4ca5e
 }
