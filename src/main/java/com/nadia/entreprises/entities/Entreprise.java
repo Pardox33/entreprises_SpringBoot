@@ -16,6 +16,8 @@ import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Size;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 public class Entreprise {
 	@Id
@@ -42,6 +44,7 @@ public class Entreprise {
 	
 
 	@ManyToOne(optional=true)
+	@JsonBackReference
 	private Secteur secteur;
 	
 
